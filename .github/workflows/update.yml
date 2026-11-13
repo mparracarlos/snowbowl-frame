@@ -1,0 +1,72 @@
+name: Update Snowbowl frame
+
+# GitHub's clock is UTC. Arizona is UTC-7 all year, so these are
+# 5:40 AM, 10:40 AM and 5:40 PM in Phoenix: twenty minutes early, because
+# scheduled jobs often start late and the frame looks for new pictures at
+# 6:02, 11:02 and 18:02.
+on:
+  schedule:
+    - cron: "40 12 * * *"
+    - cron: "40 17 * * *"
+    - cron: "40 0 * * *"
+  workflow_dispatch:   # adds a "Run workflow" button on the Actions tab
+
+permissions:
+  contents: write      # the job saves the new pictures into this repository
+
+concurrency:
+  group: update-frame
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install fonts and Pillow
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq fonts-liberation fonts-dejavu-core
+          pip install --quiet pillow
+
+      - name: Build frames (plain download)
+        id: plain
+        continue-on-error: true
+        env:
+          SNOW_FETCH: urllib
+        run: python build_frames.py
+
+      - name: Build frames (headless browser, only if the plain download failed)
+        if: steps.plain.outcome == 'failure'
+        id: browser
+        continue-on-error: true
+        env:
+          SNOW_FETCH: playwright
+        run: |
+          pip install --quiet playwright
+          playwright install --with-deps chromium
+          python build_frames.py
+
+      - name: Save the new pictures
+        run: |
+          git config user.name "snowbowl-frame-bot"
+          git config user.email "snowbowl-frame-bot@users.noreply.github.com"
+          git add frames data
+          if git diff --cached --quiet; then
+            echo "Nothing changed."
+          else
+            git commit -m "Frame update $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi
+
+      - name: Flag the run if OnTheSnow could not be reached
+        if: steps.plain.outcome == 'failure' && steps.browser.outcome == 'failure'
+        run: |
+          echo "OnTheSnow could not be reached by either method. The frame keeps the last good data, marked OFFLINE."
+          exit 1
