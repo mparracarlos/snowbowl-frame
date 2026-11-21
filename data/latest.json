@@ -1,7 +1,7 @@
 {
  "resort": "Arizona Snowbowl",
  "report_updated": "2026-11-20T12:30:33+00:00",
- "fetched_at": "2026-11-20T11:32-07:00",
+ "fetched_at": "2026-11-20T18:51-07:00",
  "new_snow_cm": {
   "24h": 0.0,
   "48h": 0.0,
@@ -98,7 +98,7 @@
   },
   {
    "date": "2026-11-26",
-   "snow_cm": 0.0
+   "snow_cm": 0.48
   },
   {
    "date": "2026-11-27",
@@ -188,73 +188,73 @@
   },
   {
    "date": "2026-11-21",
-   "high_c": -1.6,
-   "low_c": -10.3,
+   "high_c": -1.4,
+   "low_c": -10.4,
    "snow_cm": 0.0,
    "forecast": true,
-   "type": "SUN",
-   "wind_kmh": 11,
-   "gust_kmh": 45
+   "type": "MOSTLY_SUNNY",
+   "wind_kmh": 12,
+   "gust_kmh": 47
   },
   {
    "date": "2026-11-22",
-   "high_c": 2.4,
-   "low_c": -6.2,
-   "snow_cm": 0.0,
-   "forecast": true,
-   "type": "SLIGHTLY_CLOUDY",
-   "wind_kmh": 16,
-   "gust_kmh": 35
-  },
-  {
-   "date": "2026-11-23",
-   "high_c": -0.9,
-   "low_c": -7.5,
+   "high_c": 2.0,
+   "low_c": -5.8,
    "snow_cm": 0.0,
    "forecast": true,
    "type": "CLOUDY",
-   "wind_kmh": 23,
-   "gust_kmh": 43
+   "wind_kmh": 17,
+   "gust_kmh": 36
+  },
+  {
+   "date": "2026-11-23",
+   "high_c": -0.8,
+   "low_c": -7.7,
+   "snow_cm": 0.0,
+   "forecast": true,
+   "type": "MOSTLY_SUNNY",
+   "wind_kmh": 24,
+   "gust_kmh": 46
   },
   {
    "date": "2026-11-24",
-   "high_c": 0.0,
-   "low_c": -7.9,
-   "snow_cm": 0.0,
-   "forecast": true,
-   "type": "SUN",
-   "wind_kmh": 10,
-   "gust_kmh": 21
-  },
-  {
-   "date": "2026-11-25",
-   "high_c": 3.3,
-   "low_c": -7.1,
+   "high_c": 0.6,
+   "low_c": -7.6,
    "snow_cm": 0.0,
    "forecast": true,
    "type": "SLIGHTLY_CLOUDY",
-   "wind_kmh": 15,
+   "wind_kmh": 8,
+   "gust_kmh": 19
+  },
+  {
+   "date": "2026-11-25",
+   "high_c": 4.2,
+   "low_c": -5.8,
+   "snow_cm": 0.0,
+   "forecast": true,
+   "type": "CLOUDY",
+   "wind_kmh": 17,
    "gust_kmh": 23
   },
   {
    "date": "2026-11-26",
-   "high_c": 1.6,
+   "high_c": -0.6,
    "low_c": -7.6,
-   "snow_cm": 0.0,
+   "snow_cm": 0.48,
    "forecast": true,
-   "type": "MOSTLY_SUNNY",
-   "wind_kmh": 16,
-   "gust_kmh": 27
+   "type": "SNOW",
+   "wind_kmh": 17,
+   "gust_kmh": 25
   },
   {
    "date": "2026-11-27",
-   "high_c": -1.1,
-   "low_c": -7.7,
+   "high_c": 1.6,
+   "low_c": -7.5,
    "snow_cm": 0.0,
    "forecast": true,
    "type": "SUN",
-   "wind_kmh": 13,
-   "gust_kmh": 20
+   "wind_kmh": 17,
+   "gust_kmh": 30
   }
  ],
  "source": "urllib"
