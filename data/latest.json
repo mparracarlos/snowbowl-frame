@@ -1,7 +1,7 @@
 {
  "resort": "Arizona Snowbowl",
- "report_updated": "2026-11-21T21:12:10+00:00",
- "fetched_at": "2026-11-21T18:49-07:00",
+ "report_updated": "2026-11-22T12:59:04+00:00",
+ "fetched_at": "2026-11-22T06:38-07:00",
  "new_snow_cm": {
   "24h": 0.0,
   "48h": 0.0,
@@ -13,8 +13,8 @@
   "summit": null
  },
  "typical_depth_cm": {
-  "base": 37.0,
-  "middle": 46.0,
+  "base": 43.0,
+  "middle": 54.0,
   "summit": 42.0
  },
  "lifts": {
@@ -22,24 +22,24 @@
   "total": 9
  },
  "runs": {
-  "open": 8,
+  "open": 9,
   "total": 61
  },
  "runs_by_level": {
   "Beginner": {
-   "open": null,
+   "open": 3,
    "total": 17
   },
   "Intermediate": {
-   "open": null,
+   "open": 3,
    "total": 24
   },
   "Advanced": {
-   "open": null,
+   "open": 3,
    "total": 13
   },
   "Expert": {
-   "open": null,
+   "open": 0,
    "total": 7
   }
  },
@@ -48,34 +48,30 @@
   "total": 4
  },
  "acres": {
-  "open": null,
+  "open": 120,
   "total": 777
  },
  "open_flag": 1,
  "opening_date": "2026-11-19",
  "closing_date": "2027-04-18",
  "now": {
-  "date": "2026-11-21",
-  "type": "SUN",
-  "wind_kmh": 24,
+  "date": "2026-11-22",
+  "type": "SLIGHTLY_CLOUDY",
+  "wind_kmh": 37,
   "base": {
-   "min": -8.0,
-   "max": 1.7
+   "min": -2.4,
+   "max": 2.9
   },
   "mid": {
-   "min": -10.1,
-   "max": -1.4
+   "min": -5.2,
+   "max": -0.8
   },
   "summit": {
-   "min": -13.4,
-   "max": -4.3
+   "min": -7.6,
+   "max": -2.1
   }
  },
  "snow_forecast": [
-  {
-   "date": "2026-11-21",
-   "snow_cm": 0.0
-  },
   {
    "date": "2026-11-22",
    "snow_cm": 0.0
@@ -103,19 +99,13 @@
   {
    "date": "2026-11-28",
    "snow_cm": 0.0
+  },
+  {
+   "date": "2026-11-29",
+   "snow_cm": 0.0
   }
  ],
  "weather": [
-  {
-   "date": "2026-11-14",
-   "high_c": -1.2,
-   "low_c": -4.3,
-   "snow_cm": 10.16,
-   "forecast": false,
-   "type": "SNOW",
-   "wind_kmh": 32,
-   "gust_kmh": 61
-  },
   {
    "date": "2026-11-15",
    "high_c": 3.5,
@@ -188,73 +178,83 @@
   },
   {
    "date": "2026-11-22",
-   "high_c": -1.5,
-   "low_c": -5.7,
+   "high_c": -0.8,
+   "low_c": -5.2,
    "snow_cm": 0.0,
-   "forecast": true,
-   "type": "FOG",
+   "forecast": false,
+   "type": "SLIGHTLY_CLOUDY",
    "wind_kmh": 16,
-   "gust_kmh": 35
+   "gust_kmh": 34
   },
   {
    "date": "2026-11-23",
-   "high_c": 1.0,
-   "low_c": -7.1,
+   "high_c": -0.9,
+   "low_c": -6.6,
    "snow_cm": 0.0,
    "forecast": true,
    "type": "FOG",
    "wind_kmh": 18,
-   "gust_kmh": 41
+   "gust_kmh": 35
   },
   {
    "date": "2026-11-24",
-   "high_c": 0.1,
-   "low_c": -7.7,
+   "high_c": 1.9,
+   "low_c": -7.5,
    "snow_cm": 0.0,
    "forecast": true,
    "type": "SLIGHTLY_CLOUDY",
-   "wind_kmh": 16,
-   "gust_kmh": 25
+   "wind_kmh": 12,
+   "gust_kmh": 19
   },
   {
    "date": "2026-11-25",
    "high_c": 4.7,
-   "low_c": -6.1,
+   "low_c": -5.9,
    "snow_cm": 0.0,
    "forecast": true,
    "type": "SLIGHTLY_CLOUDY",
-   "wind_kmh": 11,
-   "gust_kmh": 15
+   "wind_kmh": 9,
+   "gust_kmh": 14
   },
   {
    "date": "2026-11-26",
-   "high_c": 2.0,
+   "high_c": 3.0,
    "low_c": -6.1,
    "snow_cm": 0.0,
    "forecast": true,
-   "type": "MOSTLY_SUNNY",
-   "wind_kmh": 16,
-   "gust_kmh": 26
-  },
-  {
-   "date": "2026-11-27",
-   "high_c": 6.8,
-   "low_c": -5.1,
-   "snow_cm": 0.0,
-   "forecast": true,
    "type": "SUN",
-   "wind_kmh": 10,
+   "wind_kmh": 12,
    "gust_kmh": 19
   },
   {
-   "date": "2026-11-28",
-   "high_c": 10.1,
-   "low_c": -1.7,
+   "date": "2026-11-27",
+   "high_c": 7.5,
+   "low_c": -4.6,
    "snow_cm": 0.0,
    "forecast": true,
-   "type": "MOSTLY_SUNNY",
-   "wind_kmh": 11,
-   "gust_kmh": 28
+   "type": "SUN",
+   "wind_kmh": 13,
+   "gust_kmh": 20
+  },
+  {
+   "date": "2026-11-28",
+   "high_c": 10.9,
+   "low_c": -0.3,
+   "snow_cm": 0.0,
+   "forecast": true,
+   "type": "SLIGHTLY_CLOUDY",
+   "wind_kmh": 17,
+   "gust_kmh": 29
+  },
+  {
+   "date": "2026-11-29",
+   "high_c": 5.5,
+   "low_c": -4.8,
+   "snow_cm": 0.0,
+   "forecast": true,
+   "type": "SLIGHTLY_CLOUDY",
+   "wind_kmh": 29,
+   "gust_kmh": 50
   }
  ],
  "source": "urllib"
