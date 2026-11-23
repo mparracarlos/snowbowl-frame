@@ -1,7 +1,7 @@
 {
  "resort": "Arizona Snowbowl",
  "report_updated": "2026-11-22T12:59:04+00:00",
- "fetched_at": "2026-11-22T11:16-07:00",
+ "fetched_at": "2026-11-22T18:56-07:00",
  "new_snow_cm": {
   "24h": 0.0,
   "48h": 0.0,
@@ -188,48 +188,48 @@
   },
   {
    "date": "2026-11-23",
-   "high_c": -2.0,
-   "low_c": -6.7,
+   "high_c": -1.8,
+   "low_c": -6.4,
    "snow_cm": 0.0,
    "forecast": true,
    "type": "FOG",
-   "wind_kmh": 20,
-   "gust_kmh": 51
+   "wind_kmh": 19,
+   "gust_kmh": 37
   },
   {
    "date": "2026-11-24",
-   "high_c": 0.8,
-   "low_c": -7.2,
+   "high_c": 2.3,
+   "low_c": -5.7,
    "snow_cm": 0.0,
    "forecast": true,
    "type": "SLIGHTLY_CLOUDY",
-   "wind_kmh": 14,
-   "gust_kmh": 50
+   "wind_kmh": 13,
+   "gust_kmh": 36
   },
   {
    "date": "2026-11-25",
-   "high_c": 4.7,
-   "low_c": -6.0,
+   "high_c": 6.0,
+   "low_c": -5.2,
    "snow_cm": 0.0,
    "forecast": true,
    "type": "SLIGHTLY_CLOUDY",
-   "wind_kmh": 9,
-   "gust_kmh": 12
+   "wind_kmh": 8,
+   "gust_kmh": 11
   },
   {
    "date": "2026-11-26",
-   "high_c": 2.8,
-   "low_c": -6.0,
+   "high_c": 4.4,
+   "low_c": -4.9,
    "snow_cm": 0.0,
    "forecast": true,
    "type": "SUN",
-   "wind_kmh": 15,
-   "gust_kmh": 24
+   "wind_kmh": 10,
+   "gust_kmh": 17
   },
   {
    "date": "2026-11-27",
-   "high_c": 8.7,
-   "low_c": -3.6,
+   "high_c": 10.1,
+   "low_c": -3.1,
    "snow_cm": 0.0,
    "forecast": true,
    "type": "MOSTLY_SUNNY",
@@ -238,23 +238,23 @@
   },
   {
    "date": "2026-11-28",
-   "high_c": 9.6,
-   "low_c": -0.8,
+   "high_c": 8.6,
+   "low_c": -1.1,
    "snow_cm": 0.0,
    "forecast": true,
-   "type": "MOSTLY_SUNNY",
-   "wind_kmh": 16,
-   "gust_kmh": 26
+   "type": "SLIGHTLY_CLOUDY",
+   "wind_kmh": 21,
+   "gust_kmh": 30
   },
   {
    "date": "2026-11-29",
-   "high_c": 5.8,
-   "low_c": -3.5,
+   "high_c": 4.8,
+   "low_c": -3.6,
    "snow_cm": 0.0,
    "forecast": true,
-   "type": "MOSTLY_SUNNY",
-   "wind_kmh": 29,
-   "gust_kmh": 51
+   "type": "SLIGHTLY_CLOUDY",
+   "wind_kmh": 35,
+   "gust_kmh": 56
   }
  ],
  "source": "urllib"
