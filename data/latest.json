@@ -1,7 +1,7 @@
 {
  "resort": "Arizona Snowbowl",
  "report_updated": "2026-11-23T12:17:39+00:00",
- "fetched_at": "2026-11-23T06:59-07:00",
+ "fetched_at": "2026-11-23T11:27-07:00",
  "new_snow_cm": {
   "24h": 0.0,
   "48h": 0.0,
@@ -57,18 +57,18 @@
  "now": {
   "date": "2026-11-23",
   "type": "MOSTLY_SUNNY",
-  "wind_kmh": 38,
+  "wind_kmh": 35,
   "base": {
-   "min": -3.7,
-   "max": 1.7
+   "min": -3.0,
+   "max": 1.3
   },
   "mid": {
    "min": -6.4,
-   "max": -1.2
+   "max": -1.5
   },
   "summit": {
    "min": -9.3,
-   "max": -4.4
+   "max": -4.9
   }
  },
  "snow_forecast": [
@@ -98,11 +98,11 @@
   },
   {
    "date": "2026-11-29",
-   "snow_cm": 0.4
+   "snow_cm": 0.0
   },
   {
    "date": "2026-11-30",
-   "snow_cm": 3.54
+   "snow_cm": 0.0
   }
  ],
  "weather": [
@@ -178,83 +178,83 @@
   },
   {
    "date": "2026-11-23",
-   "high_c": -1.2,
+   "high_c": -1.5,
    "low_c": -6.4,
    "snow_cm": 0.0,
    "forecast": false,
    "type": "FOG",
    "wind_kmh": 16,
-   "gust_kmh": 34
+   "gust_kmh": 37
   },
   {
    "date": "2026-11-24",
-   "high_c": 4.3,
-   "low_c": -4.7,
+   "high_c": 3.8,
+   "low_c": -4.8,
    "snow_cm": 0.0,
    "forecast": true,
-   "type": "MOSTLY_SUNNY",
-   "wind_kmh": 16,
+   "type": "SLIGHTLY_CLOUDY",
+   "wind_kmh": 14,
    "gust_kmh": 35
   },
   {
    "date": "2026-11-25",
    "high_c": 5.8,
-   "low_c": -5.2,
+   "low_c": -4.2,
    "snow_cm": 0.0,
    "forecast": true,
    "type": "SLIGHTLY_CLOUDY",
    "wind_kmh": 8,
-   "gust_kmh": 11
+   "gust_kmh": 14
   },
   {
    "date": "2026-11-26",
-   "high_c": 3.2,
-   "low_c": -4.5,
+   "high_c": 4.4,
+   "low_c": -4.9,
    "snow_cm": 0.0,
    "forecast": true,
    "type": "SUN",
-   "wind_kmh": 13,
-   "gust_kmh": 22
+   "wind_kmh": 11,
+   "gust_kmh": 21
   },
   {
    "date": "2026-11-27",
-   "high_c": 9.3,
-   "low_c": -3.6,
+   "high_c": 9.8,
+   "low_c": -2.9,
    "snow_cm": 0.0,
    "forecast": true,
-   "type": "SLIGHTLY_CLOUDY",
-   "wind_kmh": 9,
-   "gust_kmh": 13
+   "type": "SUN",
+   "wind_kmh": 10,
+   "gust_kmh": 14
   },
   {
    "date": "2026-11-28",
-   "high_c": 9.3,
-   "low_c": -1.5,
+   "high_c": 10.2,
+   "low_c": -0.5,
    "snow_cm": 0.0,
    "forecast": true,
    "type": "SLIGHTLY_CLOUDY",
    "wind_kmh": 20,
-   "gust_kmh": 32
+   "gust_kmh": 30
   },
   {
    "date": "2026-11-29",
-   "high_c": 4.4,
-   "low_c": -3.9,
-   "snow_cm": 0.4,
+   "high_c": 5.4,
+   "low_c": -3.5,
+   "snow_cm": 0.0,
    "forecast": true,
-   "type": "SNOW",
-   "wind_kmh": 39,
-   "gust_kmh": 72
+   "type": "MOSTLY_SUNNY",
+   "wind_kmh": 29,
+   "gust_kmh": 58
   },
   {
    "date": "2026-11-30",
-   "high_c": 1.8,
-   "low_c": -5.9,
-   "snow_cm": 3.54,
+   "high_c": 3.2,
+   "low_c": -5.8,
+   "snow_cm": 0.0,
    "forecast": true,
-   "type": "SNOW_SHOWERS",
-   "wind_kmh": 25,
-   "gust_kmh": 50
+   "type": "SLIGHTLY_CLOUDY",
+   "wind_kmh": 22,
+   "gust_kmh": 54
   }
  ],
  "source": "urllib"
